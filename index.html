@@ -13,29 +13,29 @@
         <div id="sec-img">
             <!-- imagem do form -->
         </div>
-        <section>
+        <section id="login">
             <h1>Login</h1>
-            <p>Nesta tela você poderá fazer login e defrutar de nossos incriveis produtos disponibilizados a aprtir da ideia de nosso gerente master, Ramon Erik, ele também foi quem desenvolveu o site...</p>
+            <p>Seja bem-vindo(a) novamente. Faça login e experimente nossos produtos</p>
             <form action="cadastro.php" method="post">
-                <div>
+                <div class="linha-form">
                     <!-- linha de email -->
                     <label for="email" autocomplete="on">
                         <span class="material-icons">person</span>
                     </label>
                     <input type="email" name="email" id="email" autocomplete="email" placeholder="seu email" required>
                 </div>
-                <div>
+                <div class="linha-form">
                     <!-- linha de senha -->
                     <label for="senha"><span class="material-icons">vpn_key</span></label>
                     <input type="password" name="senha" id="senha" autocomplete="current-password" min="8" placeholder="sua senha" required>
                 </div>
                 <div>
                     <!-- linha de btn enviar -->
-                    <input type="submit" value="Entrar">
+                    <input type="submit" id="enviar" value="Entrar">
                 </div>
                 <div>
                     <!-- linha de btn esqueci a senha  -->
-                    <a href="#" target="_blank">
+                    <a id="esqueci-senha" href="#" target="_blank">
                         Esqueci a senha <span class="material-icons">email</span>
                     </a>
                 </div>
