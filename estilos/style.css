@@ -11,7 +11,7 @@ html {
 body {
     height: 100vh;
     padding: 15px;
-    background-color: #141A26;
+    background-color: #28354e;
 }
 
 .container {
@@ -24,7 +24,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 200px;
+    width: 80vw;
     max-width: 600px;
     border-radius: 20px;
     box-shadow: 3px 1px 10px 2px #00000060;
