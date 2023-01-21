@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    transition: all .1s;
+    transition: all .1s ease;
 }
 
 
@@ -13,6 +13,7 @@ html {
 
 body {
     height: 100vh;
+    margin: 0;
     padding: 15px;
     background-color: #28354e;
 }
@@ -85,6 +86,7 @@ label span {
     border-radius: 10px;
     background-color: #0055ff;
     color: white;
+    cursor: pointer;
 }
 
 #linha {
@@ -106,4 +108,28 @@ a#esqueci-senha {
 
 #esqueci-senha i {
     font-size: 1.1em;
+}
+
+#esqueci-senha:hover,
+#esqueci-senha:hover {
+    background-color: #0055ff;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+}
+
+footer a:hover, 
+footer a:focus {
+    color: #0076a5;
 }
